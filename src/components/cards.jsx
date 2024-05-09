@@ -8,7 +8,7 @@ function Cards() {
     <div className="mx-auto py-14 px-4 bg-white text-black max-w-[1240px] flex flex-row flex-wrap gap-[20px] items-center justify-center">
       <div className="ease-in-out duration-500 hover:scale-105 md:w-[250px] sm:w-[300px] w-[400px] shadow-lg flex divide-y-2 divide-gray-400 flex-col gap-4 justify-center items-center border-md py-[20px]">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <img src={Single} className="w-[40%]" alt="/" />
+          <img src={Single} className="w-[40%]" alt="single user" />
           <h3 className="md:text-2xl sm:text-1xl text-lg font-bold capitalize">
             single user
           </h3>
@@ -23,7 +23,7 @@ function Cards() {
       </div>
       <div className="ease-in-out duration-500 hover:scale-105 bg-gray-200 md:w-[300px] sm:w-[300px] w-[400px] shadow-lg flex divide-y-2 divide-gray-400 flex-col gap-4 justify-center items-center border-md py-[20px]">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <img src={Triple} className="w-[40%]" alt="/" />
+          <img src={Triple} className="w-[40%]" alt="three or more user" />
           <h3 className="md:text-2xl sm:text-1xl text-lg font-bold capitalize">
             Group account
           </h3>
@@ -38,7 +38,7 @@ function Cards() {
       </div>
       <div className="ease-in-out duration-500 hover:scale-105 md:w-[250px] sm:w-[300px] w-[400px] shadow-lg flex divide-y-2 divide-gray-400 flex-col gap-4 justify-center items-center border-md py-[20px]">
         <div className="flex flex-col gap-4 justify-center items-center">
-          <img src={Double} className="w-[40%]" alt="/" />
+          <img src={Double} className="w-[40%]" alt="more users than one" />
           <h3 className="md:text-2xl sm:text-1xl text-lg font-bold capitalize">
             Patnership
           </h3>
